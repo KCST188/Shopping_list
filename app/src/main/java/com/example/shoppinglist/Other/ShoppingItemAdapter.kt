@@ -21,7 +21,7 @@ class ShoppingItemAdapter (
     inner class ShoppingViewHolder(itemView: View): RecyclerView.ViewHolder(itemView)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ShoppingViewHolder {
-        var view = LayoutInflater.from(parent.context).inflate(
+        val view = LayoutInflater.from(parent.context).inflate(
             R.layout.shopping_item,
             parent,
             false)
